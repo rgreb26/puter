@@ -1,5 +1,44 @@
 # Changelog
 
+## [2.6.0](https://github.com/rgreb26/puter/compare/v2.5.0...v2.6.0) (2025-01-21)
+
+
+### Features
+
+* disable creation of temp_users and user signup through config ([8d5860d](https://github.com/rgreb26/puter/commit/8d5860d733ffccc363e79da7fb667eaea56d53b5))
+
+
+### Bug Fixes
+
+* --onlycase param broke cartesian tests ([d9822a4](https://github.com/rgreb26/puter/commit/d9822a4f09e3e0c5fbed8c655435f534af949290))
+* actor param in legacy /write ([7aa886d](https://github.com/rgreb26/puter/commit/7aa886d573362e6739bd99bbed02f4831557ccb4))
+* add package-lock.json ([3097b86](https://github.com/rgreb26/puter/commit/3097b86597218de9e59b450b70185634a94be210))
+* app data check error in write ([5ef75e5](https://github.com/rgreb26/puter/commit/5ef75e5df35ae95242da97235512495b7585bd0d))
+* app icon empty string should be skipped ([37ca892](https://github.com/rgreb26/puter/commit/37ca89228cc2f978602098ee4aae1ecb3d333526))
+* appease mocha's import requirements ([d6bbba7](https://github.com/rgreb26/puter/commit/d6bbba7bf064991d59fbfe74db5221e0118a781c))
+* circular imports ([8fabf01](https://github.com/rgreb26/puter/commit/8fabf014a9eb783183e87489ae2b6c6bbc42c99a))
+* empty response when mkdir is a no-op ([f359ae1](https://github.com/rgreb26/puter/commit/f359ae193e87552b3a2e2aafa3fda389478fca38))
+* ensure puter.signup emit resolves ([113ed31](https://github.com/rgreb26/puter/commit/113ed31336c494a3f7a9e744a34de35b3785c033))
+* error msg for invalid puter-ocr urls ([6a6bfa0](https://github.com/rgreb26/puter/commit/6a6bfa034fe16dba7172ab5adbf23f00df38301d))
+* I'ma buy GitHub a coffee and spill it on their servers if this works ([686d3de](https://github.com/rgreb26/puter/commit/686d3de518e6e090d683294ad3dd856db26856a0))
+* icons ([d03952b](https://github.com/rgreb26/puter/commit/d03952b23712ae8a61c7f2c7582d297691e0ecc1))
+* improper 500 in wisp token verify ([75aaaa6](https://github.com/rgreb26/puter/commit/75aaaa66a8c7df00e1fb80c353d890269296839c))
+* missing changes to run-selfhosted.js ([6f4b1bf](https://github.com/rgreb26/puter/commit/6f4b1bf94a031b3324f5ecd51557b1298a1c3175))
+* missing parent dirs created in move ([9d9d97f](https://github.com/rgreb26/puter/commit/9d9d97fd0074058506b0506d5027b0c6b8a26845))
+* mkdir with create_missing when some parents exist ([807c3ba](https://github.com/rgreb26/puter/commit/807c3ba5eca02f69b5e6ce547420312b68c7993f))
+* new desktop height calculation when resizing browser window ([a295420](https://github.com/rgreb26/puter/commit/a295420f58326b04c976cf92bd2d582d2eafa71b))
+* oh, right; there's two of them ([a13af7e](https://github.com/rgreb26/puter/commit/a13af7e31aa4cd36457a90a7d75878b6d39ba73b))
+* possible out-or-order response objects from batch ([fb70251](https://github.com/rgreb26/puter/commit/fb7025164e3f42cae1365ec65960019b24f4360d))
+* reduce code paths for querystrings ([e8f5450](https://github.com/rgreb26/puter/commit/e8f5450cb05213c3c06802442103f5c414eee5cc))
+* save_account case for disable_user_signup ([766c235](https://github.com/rgreb26/puter/commit/766c235cc738051588a67ff5ab4230e76b64173c))
+* shortcut issue ([6d196d5](https://github.com/rgreb26/puter/commit/6d196d59f026bec4acb0296d8f0f38c7cee2e8c2))
+* skip test files in mod lib loading ([f60c008](https://github.com/rgreb26/puter/commit/f60c008158127458e02e3bb92287617d9f1f9514))
+* subdomains to deleted files tried to deref fs node ([38ccc82](https://github.com/rgreb26/puter/commit/38ccc82c8e95636ee4b7c5ca2f761098f12affa2))
+* test and improve boolify ([44ad3c5](https://github.com/rgreb26/puter/commit/44ad3c578106d2b01007240188db57760c15af96))
+* test for get-launch-apps ([740fdb5](https://github.com/rgreb26/puter/commit/740fdb592e494bf5b197493774cef6559bfb50b9))
+* try redundant npm install after build stage ([8963eb0](https://github.com/rgreb26/puter/commit/8963eb0c4f1220dd515ac6ed7a2a8f1de26655ae))
+* use .get() for Map lookup. fix: correctly set url and url_paths. fix: null check to throw error. ([78ac033](https://github.com/rgreb26/puter/commit/78ac033a1ca4f51b71c2bcb185b305903f7be495))
+
 ## v2.5.0 (2025-01-07)
 
 ### Puter
